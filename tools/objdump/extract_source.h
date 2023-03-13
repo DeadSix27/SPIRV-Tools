@@ -18,6 +18,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <cstdint>
 
 // Parse a SPIR-V module, and extracts all HLSL source code from it.
 // This function doesn't lift the SPIR-V code, but only relies on debug symbols.
